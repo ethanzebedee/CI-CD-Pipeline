@@ -8,6 +8,12 @@
     "lint": "eslint .",
     "test": "jest"
   },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "testMatch": ["**/tests/**/*.test.js"],
+    "setupFilesAfterEnv": []
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
